@@ -1,0 +1,140 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+.header hgroup h1,
+.header hgroup h2,
+.header hgroup h3,
+.header hgroup h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.header hgroup h1 {
+    font-size: 4em;
+}
+
+.header hgroup h2 {
+    font-size: 3em;
+}
+
+.header hgroup h3 {
+    font-size: 2.5em;
+}
+
+.header hgroup h4 {
+    font-size: 2em;
+}
+
+.header hgroup h5 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.header .click {
+    display: inline-block;
+    background-color: #31d63796;
+    color: #2a2623;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header .please:hover {
+    background-color: #ff6091;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #030303;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.toggle-btn:hover {
+    background-color: #ff6091;
+}
+
+.history-content {
+    display: none;
+    margin-top: 20px;
+}
+
+#randomBtn {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #0a0808;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+#randomBtn:hover {
+    background-color: #ff6091;
+}
+
+#imageContainer {
+    display: none
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(221, 182, 182, 0.8);
+    color: #333;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff4081;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+#image {
+    float: left;
+    width: 400px;
+    height: 350px;
+    background-size: cover;
+}
+
+#imgTitle {
+    font-size: 2em;
+    margin-top: 10px;
+}
